@@ -29,7 +29,7 @@ lab 05/
 
 | Despliegue | Recurso | Dirección | Estado |
 |---|---|---|---|
-| OpenStack | VM `rct419-docker` (m1.small, Ubuntu 24.04) | `http://192.168.70.42` | En marcha |
+| OpenStack | VM `rct419-docker` (m1.small, Ubuntu 24.04) | `http://192.168.70.42` | Apagada |
 | Compute Engine | VM `web-estatica-basica` (g1-small, Container-Optimized OS, `europe-west1-b`) | `http://34.76.223.195` | Detenida tras grabar el vídeo |
 | Cloud Run | Servicio `web-estatica-basica` (`europe-west1`, puerto 80, 0–3 instancias) | https://web-estatica-basica-411000775826.europe-west1.run.app | Escala a 0 sin tráfico |
 
