@@ -1,0 +1,21 @@
+$ mysql -h 34.140.133.198 -u root -p < init.sql
+$ mysql -h 34.140.133.198 -u root -p -e "show databases; use SG; show tables; select count(*) as clientes from s_customer;"
++--------------------+
+| Database           |
++--------------------+
+| SG                 |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
++--------------+
+| Tables_in_SG |
++--------------+
+| s_customer   |
++--------------+
++----------+
+| clientes |
++----------+
+|       25 |
++----------+

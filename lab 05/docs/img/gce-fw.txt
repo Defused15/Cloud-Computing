@@ -1,0 +1,2 @@
+NAME                DIRECTION  SOURCE_RANGES  ALLOW   TARGET_TAGS
+default-allow-http  INGRESS    0.0.0.0/0      tcp:80  http-server

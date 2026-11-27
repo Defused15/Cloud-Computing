@@ -1,0 +1,12 @@
+NAME MAJ:MIN RM SIZE RO TYPE MOUNTPOINTS
+vdb  253:16   0   1G  0 disk 
+mkfs ok
+/dev/vdb        974M   28K  907M   1% /mnt
+total 20
+drwx------ 2 root root 16384 Nov 25 09:52 lost+found
+-rw-r--r-- 1 root root    17 Nov 25 09:52 rct419.txt
+--- contenido:
+Roberto Castillo
+desmontado
+NAME FSTYPE FSVER LABEL  UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+vdb  ext4   1.0   rct419 3f0fb87b-fae5-4298-9a4d-d7890ba57153                

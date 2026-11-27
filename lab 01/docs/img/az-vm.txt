@@ -1,0 +1,3 @@
+Nombre     Region    Tamano             Ip            Estado      Imagen
+---------  --------  -----------------  ------------  ----------  ------------
+lab01-web  westus2   Standard_B2pts_v2  40.125.87.41  VM running  server-arm64

@@ -1,0 +1,8 @@
+$ docker buildx build --platform linux/amd64,linux/arm64 -t defused/web-estatica-basica:v0 --push .
+$ docker buildx imagetools inspect defused/web-estatica-basica:v0
+Name:      docker.io/defused/web-estatica-basica:v0
+Digest:    sha256:674d5653faa48798c87d1946a9e86eba60899178fbb2f8f3ebc3f969cbbde07a
+  Name:        docker.io/defused/web-estatica-basica:v0@sha256:84cae7daa43121a6fee3f6cbfbe691fa9b25905225571655cc4ac21d3ab9af2a
+  Platform:    linux/amd64
+  Name:        docker.io/defused/web-estatica-basica:v0@sha256:109a1bb2763a1f1bd6ab8788796de78b7fd58091a98d5d075e9d3b7d17bf5d82
+  Platform:    linux/arm64

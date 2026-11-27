@@ -1,0 +1,9 @@
+$ docker run -d --name web-estatica-basica -p 80:80 defused/web-estatica-basica:v0
+Unable to find image 'defused/web-estatica-basica:v0' locally
+v0: Pulling from defused/web-estatica-basica
+Digest: sha256:674d5653faa48798c87d1946a9e86eba60899178fbb2f8f3ebc3f969cbbde07a
+Status: Downloaded newer image for defused/web-estatica-basica:v0
+a11ff050bdb185bd284061ab527320566e4b42b457a70d22e90abdeee62d8c1e
+$ docker ps --format 'table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}\t{{.Names}}'
+CONTAINER ID   IMAGE                            STATUS         PORTS                                 NAMES
+a11ff050bdb1   defused/web-estatica-basica:v0   Up 3 seconds   0.0.0.0:80->80/tcp, [::]:80->80/tcp   web-estatica-basica

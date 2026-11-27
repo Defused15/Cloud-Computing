@@ -1,0 +1,8 @@
+Listing items under project cc2026-rct419, location us, repository gcr.io.
+
+IMAGE                                                       DIGEST                                                                   TAGS  CREATE_TIME
+us-docker.pkg.dev/cc2026-rct419/gcr.io/web-estatica-basica  sha256:109a1bb2763a1f1bd6ab8788796de78b7fd58091a98d5d075e9d3b7d17bf5d82        2026-11-27 09:23
+us-docker.pkg.dev/cc2026-rct419/gcr.io/web-estatica-basica  sha256:57febaf86231fa6049709676c0b760f8d6457b91bfe4f4908df93a8900fb0578        2026-11-27 09:23
+us-docker.pkg.dev/cc2026-rct419/gcr.io/web-estatica-basica  sha256:674d5653faa48798c87d1946a9e86eba60899178fbb2f8f3ebc3f969cbbde07a  v0    2026-11-27 09:23
+us-docker.pkg.dev/cc2026-rct419/gcr.io/web-estatica-basica  sha256:84cae7daa43121a6fee3f6cbfbe691fa9b25905225571655cc4ac21d3ab9af2a        2026-11-27 09:23
+us-docker.pkg.dev/cc2026-rct419/gcr.io/web-estatica-basica  sha256:85ebafee03b60d862322c5221ccabae4181211304d4a5ca57efc0a96c23d7bf0        2026-11-27 09:23

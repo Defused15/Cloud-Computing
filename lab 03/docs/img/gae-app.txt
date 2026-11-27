@@ -1,0 +1,4 @@
+defaultHostname: cc2026-rct419.ew.r.appspot.com
+id: cc2026-rct419
+locationId: europe-west
+servingStatus: SERVING

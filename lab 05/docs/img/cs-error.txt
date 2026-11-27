@@ -1,0 +1,3 @@
+$ docker push gcr.io/cc2026-rct419/web-estatica-basica:v0
+The push refers to repository [gcr.io/cc2026-rct419/web-estatica-basica]
+failed to do request: Head "https://gcr.io/v2/cc2026-rct419/web-estatica-basica/blobs/sha256:ce26d838af4688a7b56d664cec1298ec15475521275db22cb6d4cd04f920937c": dial tcp 172.253.120.82:443: connect: connection refused

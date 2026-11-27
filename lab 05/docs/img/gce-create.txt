@@ -1,0 +1,6 @@
+Created [https://www.googleapis.com/compute/v1/projects/cc2026-rct419/zones/europe-west1-b/instances/web-estatica-basica].
+WARNING: Some requests generated warnings:
+ - You are creating a global DNS VM. VM instances using global DNS are vulnerable to cross-regional outages. To reduce the risk of widespread service disruption, use zonal DNS instead. Learn more at https://cloud.google.com/compute/docs/networking/zonal-dns?utm_id=vm-insert
+
+NAME                 ZONE            MACHINE_TYPE  PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS
+web-estatica-basica  europe-west1-b  g1-small                   10.132.0.2   34.76.223.195  RUNNING

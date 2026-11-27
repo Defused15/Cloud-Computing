@@ -1,0 +1,3 @@
+Deployment                                                     Status   Environment
+https://sgapp-rct419-1dbafa99x-defused15s-projects.vercel.app  Ready    Production
+Alias de producción: https://sgapp-rct419.vercel.app

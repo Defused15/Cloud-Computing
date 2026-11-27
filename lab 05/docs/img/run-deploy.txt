@@ -1,0 +1,8 @@
+Deploying container to Cloud Run service [web-estatica-basica] in project [cc2026-rct419] region [europe-west1]
+Deploying new service...
+Setting IAM Policy.....................done
+Creating Revision....................................................................................done
+Routing traffic.....done
+Done.
+Service [web-estatica-basica] revision [web-estatica-basica-00001-rmd] has been deployed and is serving 100 percent of traffic.
+Service URL: https://web-estatica-basica-411000775826.europe-west1.run.app

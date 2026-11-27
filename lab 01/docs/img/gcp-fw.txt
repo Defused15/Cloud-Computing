@@ -1,0 +1,2 @@
+NAME                DIRECTION  IP_PROTOCOL  PORTS  SOURCE_RANGES  TARGET_TAGS
+default-allow-http  INGRESS    tcp          80     0.0.0.0/0      http-server

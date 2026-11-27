@@ -1,0 +1,2 @@
+NAME                 ZONE            MACHINE_TYPE  STATUS   NAT_IP         LICENSES
+web-estatica-basica  europe-west1-b  g1-small      RUNNING  34.76.223.195  cos

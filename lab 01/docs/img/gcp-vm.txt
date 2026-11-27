@@ -1,0 +1,2 @@
+NAME       ZONE                 MACHINE_TYPE  EXTERNAL_IP    STATUS
+lab01-web  europe-southwest1-a  e2-small      34.175.116.27  RUNNING

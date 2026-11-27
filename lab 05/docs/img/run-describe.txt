@@ -1,0 +1,22 @@
+spec:
+  template:
+    metadata:
+      annotations:
+        autoscaling.knative.dev/maxScale: '3'
+        run.googleapis.com/client-name: gcloud
+        run.googleapis.com/client-version: 593.0.0
+        run.googleapis.com/startup-cpu-boost: 'true'
+    spec:
+      containerConcurrency: 80
+      containers:
+      - image: gcr.io/cc2026-rct419/web-estatica-basica:v0
+        ports:
+        - containerPort: 80
+          name: http1
+        resources:
+          limits:
+            cpu: '1'
+            memory: 512Mi
+      timeoutSeconds: 300
+status:
+  url: https://web-estatica-basica-xp4yoryxha-ew.a.run.app

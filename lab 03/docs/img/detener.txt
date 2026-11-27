@@ -1,0 +1,7 @@
+$ gcloud sql instances patch sg --activation-policy NEVER
+NAME  ACTIVATION_POLICY  STATE
+sg    NEVER              STOPPED
+
+$ gcloud app describe   # Configuración → Desactivar aplicación
+ID             SERVING_STATUS
+cc2026-rct419  USER_DISABLED

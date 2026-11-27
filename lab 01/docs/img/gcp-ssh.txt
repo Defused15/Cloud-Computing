@@ -1,0 +1,9 @@
+Ubuntu 24.04.5 LTS
+active
+LICENSE.MD
+README.MD
+assets
+error
+images
+index.html
+HTTP 200

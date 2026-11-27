@@ -1,0 +1,11 @@
+$ docker pull --platform linux/amd64 defused/web-estatica-basica:v0 -q
+$ docker tag defused/web-estatica-basica:v0 gcr.io/cc2026-rct419/web-estatica-basica:v0
+$ gcloud auth configure-docker gcr.io --quiet
+Adding credentials for: gcr.io
+$ docker push gcr.io/cc2026-rct419/web-estatica-basica:v0
+The push refers to repository [gcr.io/cc2026-rct419/web-estatica-basica]
+0235006c967a: Pushed
+ce34041a1d19: Pushed
+06b1a47b87c2: Pushed
+bbf14a1eaf53: Pushed
+v0: digest: sha256:674d5653faa48798c87d1946a9e86eba60899178fbb2f8f3ebc3f969cbbde07a size: 1609

@@ -1,0 +1,4 @@
+Regla              Puerto    Acceso    Prioridad
+-----------------  --------  --------  -----------
+default-allow-ssh  22        Allow     1000
+open-port-80       80        Allow     900

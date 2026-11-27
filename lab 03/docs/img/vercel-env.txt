@@ -1,0 +1,4 @@
+ name               value     type      environments        created
+ MYSQL_PASSWORD     Hidden    Secret    Production          4m ago
+ MYSQL_USER         Hidden    Secret    Production          4m ago
+ MYSQL_HOST         Hidden    Secret    Production          4m ago

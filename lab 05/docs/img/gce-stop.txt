@@ -1,0 +1,2 @@
+NAME                 STATUS      NAT_IP
+web-estatica-basica  TERMINATED
